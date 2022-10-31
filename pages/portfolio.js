@@ -1,5 +1,6 @@
 import Head from 'next/head';
-// import images from '../public/'
+import Image from 'next/image';
+import workday from '../public/workday.png'
 import { useState } from 'react';
 
 export default function Portfolio() {
@@ -21,7 +22,7 @@ export default function Portfolio() {
           <div className="flex flex-col justify-center lg:flex-row lg:flex-wrap">
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <div className='basis-1/3 flex-1'>
-                {/* <Image className='rounded-lg object- cover' width={'100%'}/> */}
+                <Image src={workday} className='rounded-lg object- cover' width={200} height={200} />
                 <h1>Testing</h1>
               </div>
             </div>

@@ -15,16 +15,24 @@ export default function Nav(){
         </Link>
           <ul className="flex items-center">
             <li>
-              <a className=" bg-gradient-to-r bg-cyan-400 text-white px-4 py-2 rounded-md ml-5" href="/portfolio">
-               Portfolio
-              </a>
-              <a className=" bg-gradient-to-r bg-cyan-400 text-white px-4 py-2 rounded-md ml-5" href="/contact">
-               Contact
-              </a>
-              <a className=" bg-gradient-to-r bg-cyan-400 text-white px-4 py-2 rounded-md ml-5" href="/resume">
-                Resume
-              </a>
-
+              <Link href='/'>
+              <p className='bg-gradient-to-r bg-cyan-400 text-white px-4 py-2 rounded-md ml-5'>Home</p>
+              </Link>
+            </li>
+            <li>
+              <Link href='/portfolio'>
+              <p className='bg-gradient-to-r bg-cyan-400 text-white px-4 py-2 rounded-md ml-5'>Portfolio</p>
+              </Link>
+            </li>
+            <li>
+              <Link href='/contact'>
+              <p className='bg-gradient-to-r bg-cyan-400 text-white px-4 py-2 rounded-md ml-5'>Contact</p>
+              </Link>
+            </li>
+            <li>
+              <Link href='/resume'>
+              <p className='bg-gradient-to-r bg-cyan-400 text-white px-4 py-2 rounded-md ml-5'>Resume</p>
+              </Link>
             </li>
           </ul>
         </nav>

@@ -22,7 +22,7 @@ export default function Home() {
           </div>
 
           <div className="relative mx-auto w-80 h-80 mt-20">
-            <Image src={grim} />
+            <Image src={grim} alt='grim-gif' />
           </div>
         </section>
 

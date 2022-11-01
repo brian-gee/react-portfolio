@@ -27,7 +27,7 @@ export default function Portfolio() {
               <div className='basis-1/3 flex-1'>
                 <h1 className='text-xl mb-5'>Work Day Scheduler</h1>
                 <Link href='https://github.com/brian-gee/work-day-scheduler'>
-                  <Image src={workday} className='rounded-lg object- cover' width={200} height={2} />
+                  <Image src={workday} alt='work day scheduler' className='rounded-lg object- cover' width={200} height={2} />
                 </Link>
               </div>
             </div>
@@ -35,7 +35,7 @@ export default function Portfolio() {
               <div className='basis-1/3 flex-1'>
                 <h1 className='text-xl mb-5'>JATE</h1>
                 <Link href='https://github.com/brian-gee/pwa-text-editor'>
-                  <Image src={jate} className='rounded-lg object- cover' width={200} height={200} />
+                  <Image src={jate} alt='pwa text editor' className='rounded-lg object- cover' width={200} height={200} />
                 </Link>
               </div>
             </div>
@@ -43,7 +43,7 @@ export default function Portfolio() {
               <div className='basis-1/3 flex-1'>
                 <h1 className='text-xl mb-5'>Note Taker</h1>
                 <Link href='https://github.com/brian-gee/'>
-                  <Image src={noteTaker} className='rounded-lg object- cover' width={200} height={200} />
+                  <Image src={noteTaker} alt='note taker' className='rounded-lg object- cover' width={200} height={200} />
                 </Link>
               </div>
             </div>

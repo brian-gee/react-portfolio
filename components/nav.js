@@ -11,27 +11,27 @@ export default function Nav(){
       </Head>
       <nav className="py-10 mb-12 flex justify-between">
         <Link href='/'>
-          <h1  className="text-xl font-Iosevka text-white">Brian Gee</h1>
+          <h1  className="text-xl font-Iosevka text-white hover:text-blue-400 focus:shadow-outline focus:outline-none">Brian Gee</h1>
         </Link>
           <ul className="flex items-center">
             <li>
               <Link href='/'>
-              <p className='bg-blue-500 text-white px-4 py-2 rounded-md ml-5'>Home</p>
+              <p className='bg-blue-500 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white px-4 py-2 rounded-md ml-5'>Home</p>
               </Link>
             </li>
             <li>
               <Link href='/portfolio'>
-              <p className='bg-blue-500 text-white px-4 py-2 rounded-md ml-5'>Portfolio</p>
+              <p className='bg-blue-500 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white px-4 py-2 rounded-md ml-5'>Portfolio</p>
               </Link>
             </li>
             <li>
               <Link href='/contact'>
-              <p className='bg-blue-500 text-white px-4 py-2 rounded-md ml-5'>Contact</p>
+              <p className='bg-blue-500 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white px-4 py-2 rounded-md ml-5'>Contact</p>
               </Link>
             </li>
             <li>
               <Link href='/resume'>
-              <p className='bg-blue-500 text-white px-4 py-2 rounded-md ml-5'>Resume</p>
+              <p className='bg-blue-500 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white px-4 py-2 rounded-md ml-5'>Resume</p>
               </Link>
             </li>
           </ul>

@@ -11,7 +11,7 @@ export default function Nav(){
       </Head>
       <nav className="py-10 mb-12 flex justify-between">
         <Link href='/'>
-          <h1  className="text-xl font-Iosevka text-white hover:text-blue-400 focus:shadow-outline focus:outline-none">Brian Gee</h1>
+          <h1  className="text-xl font-Iosevka text-white hover:text-blue-500 focus:shadow-outline focus:outline-none">Brian Gee</h1>
         </Link>
           <ul className="flex items-center">
             <li>

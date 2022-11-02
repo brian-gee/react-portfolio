@@ -16,22 +16,22 @@ export default function Nav(){
           <ul className="flex items-center">
             <li>
               <Link href='/'>
-              <p className='bg-cyan-500 text-white px-4 py-2 rounded-md ml-5'>Home</p>
+              <p className='bg-blue-500 text-white px-4 py-2 rounded-md ml-5'>Home</p>
               </Link>
             </li>
             <li>
               <Link href='/portfolio'>
-              <p className='bg-cyan-500 text-white px-4 py-2 rounded-md ml-5'>Portfolio</p>
+              <p className='bg-blue-500 text-white px-4 py-2 rounded-md ml-5'>Portfolio</p>
               </Link>
             </li>
             <li>
               <Link href='/contact'>
-              <p className='bg-cyan-500 text-white px-4 py-2 rounded-md ml-5'>Contact</p>
+              <p className='bg-blue-500 text-white px-4 py-2 rounded-md ml-5'>Contact</p>
               </Link>
             </li>
             <li>
               <Link href='/resume'>
-              <p className='bg-cyan-500 text-white px-4 py-2 rounded-md ml-5'>Resume</p>
+              <p className='bg-blue-500 text-white px-4 py-2 rounded-md ml-5'>Resume</p>
               </Link>
             </li>
           </ul>

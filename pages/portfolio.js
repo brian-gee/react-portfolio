@@ -27,7 +27,7 @@ export default function Portfolio() {
               <div class="p-5 max-w-sm bg-white rounded-lg shadow-lg m-2">
                   <Image src={workday} alt='work day scheduler' className='object-cover'/>
                 <div class="pt-5">
-                  <h5 class="mb-2 text-2xl text-center font-bold tracking-tight">Work Day Scheduler</h5>
+                  <h5 class="mb-2 text-xl text-center tracking-tight">Work Day Scheduler</h5>
                 </div>
              </div>
             </Link>
@@ -36,7 +36,7 @@ export default function Portfolio() {
               <div class="p-5 max-w-sm bg-white rounded-lg shadow-lg m-2">
                   <Image src={jate} alt='jate' className='object-cover'/>
                 <div class="pt-5">
-                  <h5 class="text-2xl text-center font-bold tracking-tight">JATE</h5>
+                  <h5 class="text-xl text-center tracking-tight">JATE</h5>
                 </div>
              </div>
             </Link>
@@ -45,7 +45,7 @@ export default function Portfolio() {
               <div class="p-5 max-w-sm bg-white rounded-lg shadow-lg m-2">
                   <Image src={noteTaker} alt='note taker' className='object-cover'/>
                 <div class="pt-5">
-                  <h5 class="text-2xl text-center font-bold tracking-tight">Note Taker</h5>
+                  <h5 class="text-xl text-center tracking-tight">Note Taker</h5>
                 </div>
              </div>
             </Link>
@@ -54,7 +54,7 @@ export default function Portfolio() {
               <div class="p-5 max-w-sm bg-white rounded-lg shadow-lg m-2">
                   <Image src={employeeManager} alt='employee manager' className='object-cover'/>
                 <div class="pt-5">
-                  <h5 class="text-2xl text-center font-bold tracking-tight">Note Taker</h5>
+                  <h5 class="text-xl text-center tracking-tight">Note Taker</h5>
                 </div>
              </div>
             </Link>

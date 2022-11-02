@@ -2,6 +2,13 @@ export default function Contact() {
   return (
     <div>
       <main className="bg-white px-10">
+
+        {/* Contact Title */}
+        <div className="flex justify-center pb-20">
+          <h1 className="text-3xl">Contact</h1>
+        </div>
+
+        {/* Contact Form */}
         <section className=" min-h-screen justify-center flex">
           <form class="w-full max-w-lg">
             <div class="flex flex-wrap -mx-3 mb-6">
@@ -36,7 +43,7 @@ export default function Contact() {
             </div>
             <div class="md:flex md:items-center">
               <div class="md:w-1/3">
-                <button class="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+                <button class="shadow bg-blue-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
                   Send
                 </button>
               </div>

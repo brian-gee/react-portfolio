@@ -4,6 +4,7 @@ import Link from 'next/link';
 import workday from '../public/workday.png'
 import jate from '../public/jate.png'
 import noteTaker from '../public/note-taker.png'
+import employeeManager from '../public/employee-manager.png'
 
 export default function Portfolio() {
   return (
@@ -20,34 +21,43 @@ export default function Portfolio() {
           <div className="text-center">
             <h3 className="text-3xl py-1">Portfolio</h3>
           </div>
-          {/* Work Day Scheduler Card */}
           <div className="flex flex-col justify-center lg:flex-row lg:flex-wrap">
-              <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
-                <a href="#">
-                  <Image src={workday} alt='work day scheduler'/>
-                </a>
-                <div class="p-5">
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Work Day Scheduler</h5>
+          {/* Work Day Scheduler Card */}
+            <Link href="#">
+              <div class="p-5 max-w-sm bg-white rounded-lg shadow-lg m-2">
+                  <Image src={workday} alt='work day scheduler' className='object-cover'/>
+                <div class="pt-5">
+                  <h5 class="mb-2 text-2xl text-center font-bold tracking-tight">Work Day Scheduler</h5>
                 </div>
-            </div>
-            {/* JATE Card */}
-            <div className="text-center shadow-lg p-10 rounded-xl m-5">
-              <div className='basis-1/3 flex-1'>
-                <h1 className='text-xl mb-5'>JATE</h1>
-                <Link href='https://github.com/brian-gee/pwa-text-editor'>
-                  <Image src={jate} alt='pwa text editor' className='rounded-lg object- cover' width={200} height={200} />
-                </Link>
-              </div>
-            </div>
-            {/* Note Taker Card */}
-            <div className="text-center shadow-lg p-10 rounded-xl m-5">
-              <div className='basis-1/3 flex-1'>
-                <h1 className='text-xl mb-5'>Note Taker</h1>
-                <Link href='https://github.com/brian-gee/'>
-                  <Image src={noteTaker} alt='note taker' className='rounded-lg object- cover' width={200} height={200} />
-                </Link>
-              </div>
-            </div>
+             </div>
+            </Link>
+          {/* JATE Card*/}
+            <Link href="#">
+              <div class="p-5 max-w-sm bg-white rounded-lg shadow-lg m-2">
+                  <Image src={jate} alt='jate' className='object-cover'/>
+                <div class="pt-5">
+                  <h5 class="text-2xl text-center font-bold tracking-tight">JATE</h5>
+                </div>
+             </div>
+            </Link>
+          {/* Note Taker Card*/}
+            <Link href="#">
+              <div class="p-5 max-w-sm bg-white rounded-lg shadow-lg m-2">
+                  <Image src={noteTaker} alt='note taker' className='object-cover'/>
+                <div class="pt-5">
+                  <h5 class="text-2xl text-center font-bold tracking-tight">Note Taker</h5>
+                </div>
+             </div>
+            </Link>
+            {/* Employee Manager */}
+            <Link href="#">
+              <div class="p-5 max-w-sm bg-white rounded-lg shadow-lg m-2">
+                  <Image src={employeeManager} alt='employee manager' className='object-cover'/>
+                <div class="pt-5">
+                  <h5 class="text-2xl text-center font-bold tracking-tight">Note Taker</h5>
+                </div>
+             </div>
+            </Link>
           </div>
         </section>
       </main>

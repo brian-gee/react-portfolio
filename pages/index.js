@@ -13,11 +13,7 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-blue-500">Brian Geertsma</h2>
             <h3 className="text-2xl py-2">Fullstack Developer</h3>
             <p className="text-medium py-5 leading-8 text-gray-800">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Viverra adipiscing at in tellus integer feugiat. Neque vitae
-              tempus quam pellentesque. Odio pellentesque diam volutpat commodo
-              sed egestas.
+             I&apos;m a South Florida based software developer working on projects to help automate the boring stuff and bring meaning back into our lives. You can check out my github to see the projects that I&apos;m working on and I would love any suggestions for new development. If you&apos;d like to collaborate on any type of projects together feel free to send me an email.
             </p>
           </div>
 

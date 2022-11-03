@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-function portfolioItem(params) {
+export default function portfolioItem(params) {
   const { portfolioItems } = params;
 
   return (
@@ -21,5 +21,3 @@ function portfolioItem(params) {
     </div>
   )
 }
-
-export default portfolioItem;

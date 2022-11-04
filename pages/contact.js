@@ -1,6 +1,12 @@
+import Head from "next/head";
+
 export default function Contact() {
   return (
     <div>
+      <Head>
+        <title>Contact</title>
+      </Head>
+
       <main className="bg-white px-10">
 
         {/* Contact Title */}

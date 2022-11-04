@@ -1,13 +1,16 @@
+import Head from 'next/head';
 import Image from 'next/image';
 import grim from '../public/grim_cropped.gif'
 
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Brian Gee</title>
+      </Head>
+
       <main className="bg-white px-10">
         <section className=" min-h-screen">
-
-
           {/* About Me */}
           <div class="text-center p-10">
             <h2 className="text-5xl py-2 text-blue-500">Brian Geertsma</h2>

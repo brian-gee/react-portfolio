@@ -1,7 +1,12 @@
+import Head from "next/head";
 
 export default function Resume() {
   return (
     <div>
+      <Head>
+        <title>Resume</title>
+      </Head>
+
       <main className="bg-white px-10">
         <section className=" min-h-screen">
 

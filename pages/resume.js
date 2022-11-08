@@ -43,7 +43,7 @@ export default function Resume() {
 
           {/* Resume download link */}
           <div className="pl-20 pt-10">
-          <h2 className="text-xl">You can download my resume <a className=" text-blue-500" href="./public/resume-briangee.pdf" download>here</a>.</h2>
+          <h2 className="text-xl">You can download my resume <a className=" text-blue-500" href="../public/resume-briangee.pdf" download>here</a>.</h2>
           </div>
 
         </section>

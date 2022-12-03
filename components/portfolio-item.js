@@ -7,7 +7,7 @@ export default function PortfolioItem(params) {
 	return (
 		<div className="flex flex-col justify-center lg:flex-row lg:flex-wrap">
 			{portfolioItems.map((portfolioItem, i) => (
-				<div key={i} className="m-5 border-rounded border-solid border-2 border-gray-700">
+				<div key={i} className="m-3 rounded border-solid border-2 border-gray-100">
 					<div class="px-6 py-4 flex justify-center">
 						<div class="font-bold text-xl">{portfolioItem.name}</div>
 					</div>

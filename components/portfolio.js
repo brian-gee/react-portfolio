@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { useState } from 'react';
-import PortfolioItem from './portfolio-item';
+import PortfolioItem from '../components/portfolio-item';
 import skCleaning from '../public/SK-Cleaning.png'
 import weatherDashboard from '../public/Weather-Dashboard.png'
 
@@ -25,7 +25,7 @@ export default function Portfolio() {
       </Head>
 
       {/* Portfolio */}
-      <main className="bg-white px-10">
+      <main className="px-10">
         <section>
           <div className="text-center">
             <h3 className="text-3xl py-1">Portfolio</h3>

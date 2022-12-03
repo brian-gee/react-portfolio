@@ -18,6 +18,8 @@ a {
 * {
   box-sizing: border-box;
   font-family: Iosevka;
+  background-color: black;
+  color: white;
 }
 
 @font-face {

@@ -21,6 +21,5 @@ a {
 }
 
 @font-face {
-  font-family: 'Iosevka';
-  src: url('../public/iosevka-regular.ttf')
+  font-display: swap;
 }

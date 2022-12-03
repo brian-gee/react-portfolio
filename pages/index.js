@@ -13,7 +13,7 @@ export default function Home() {
       <main className="text-white px-10">
         <section className="grid grid-cols-2">
           {/* About Me */}
-          <div class="text-left p-10">
+          <div className="text-left p-10">
             <h2 className="text-5xl py-2">Brian Geertsma</h2>
             <h3 className="text-2xl py-2">Fullstack Developer</h3>
             <p className="text-sm py-5 leading-8">

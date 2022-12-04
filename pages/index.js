@@ -21,13 +21,13 @@ export default function Home() {
              </p>
           </div>
 
-          <div className="relative mx-auto w-80 h-80 mt-20">
+          <div className="w-80 h-80 grid justify-end">
             <Image src={grim} alt='grim-gif' className='rounded-full' />
           </div>
         </section>
 
         <section id='portfolio'>
-          <div>
+          <div className='mt-20'>
             <Portfolio></Portfolio>
           </div>
         </section>

@@ -9,12 +9,14 @@ export default function Portfolio() {
     {
       'name': 'Customer Manager',
       'image': skCleaning,
-      'github': 'https://brian-gee.github.io/weather-dashboard/'
+      'github': 'https://brian-gee.github.io/weather-dashboard/',
+      'link': ''
     },
     {
       'name': 'Weather Dashboard',
       'image': weatherDashboard,
-      'github': ''
+      'github': 'https://github.com/brian-gee/weather-dashboard',
+      'link': 'https://brian-gee.github.io/weather-dashboard/'
     },
   ])
 

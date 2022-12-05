@@ -20,10 +20,6 @@ export default function Portfolio() {
 
   return (
     <div>
-      <Head>
-        <title>Portfolio</title>
-      </Head>
-
       {/* Portfolio */}
       <main className="px-10">
         <section>

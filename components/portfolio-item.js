@@ -9,8 +9,8 @@ export default function PortfolioItem(params) {
 			{portfolioItems.map((portfolioItem, i) => (
 				<Link key={i} href={portfolioItem.link}>
 				<div className="m-3 rounded border-solid border-2 border-gray-100">
-					<div class="px-6 py-4 flex justify-center">
-						<div class="font-bold text-xl">{portfolioItem.name}</div>
+					<div className="px-6 py-4 flex justify-center">
+						<div className="font-bold text-xl">{portfolioItem.name}</div>
 					</div>
 					<div className="max-w-sm h-72 rounded overflow-hidden shadow-lg p-5">
 						<Image

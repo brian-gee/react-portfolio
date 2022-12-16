@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import { useState } from 'react';
 import PortfolioItem from '../components/portfolio-item';
 import skCleaning from '../public/SK-Cleaning.png'
@@ -9,8 +8,7 @@ export default function Portfolio() {
     {
       'name': 'Customer Manager',
       'image': skCleaning,
-      'github': 'https://brian-gee.github.io/weather-dashboard/',
-      'link': ''
+      'link': 'https://bluewaterpools.xyz'
     },
     {
       'name': 'Weather Dashboard',

@@ -1,5 +1,3 @@
-import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
-
 export default function Portfolio() {
 	return (
 		<div>
@@ -16,13 +14,6 @@ export default function Portfolio() {
 										<p class="text-normal text-lg sm:text-2xl font-medium text-gray-600 mt-2">
 											Fill in the form to start a conversation
 										</p>
-
-										<div class="flex items-center mt-8 text-gray-600">
-											<EmailOutlinedIcon></EmailOutlinedIcon>
-											<div class="ml-4 text-md tracking-wide font-semibold w-40">
-												info@acme.org
-											</div>
-										</div>
 									</div>
 
 									<form class="p-6 flex flex-col justify-center">

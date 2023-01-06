@@ -18,11 +18,11 @@ export default function PortfolioItem(params) {
 						<div className="text-xs md:text-sm">{portfolioItem.desc}</div>
 						<div className="p-2">
 							<Stack direction="row" spacing={2}>
-								<Button variant="outlined" startIcon={<DeleteIcon />}>
-									Delete
-								</Button>
 								<Button variant="contained" endIcon={<SendIcon />}>
-									Send
+									Live Demo
+								</Button>
+								<Button variant="outlined" startIcon={<DeleteIcon />}>
+									Source Code
 								</Button>
 							</Stack>
 						</div>

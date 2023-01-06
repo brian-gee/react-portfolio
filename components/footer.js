@@ -15,7 +15,7 @@ export default function Footer() {
 				</a>
 			</div>
 			<span className="flex justify-center py-5 text-sm sm:text-center">
-				© 2022&nbsp;
+				©2022&nbsp;
 				<a href="https://briang.xyz/" className="hover:underline">
 					Brian Geertsma
 				</a>

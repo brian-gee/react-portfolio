@@ -12,10 +12,10 @@ export default function PortfolioItem(params) {
 			{portfolioItems.map((portfolioItem, i) => (
 				<div key={i} className="grid grid-cols-2 shadow-lg m-5">
 					<div className="px-6 py-4">
-						<div className="font-bold text-sm md:text-lg ">
+						<div className="font-bold text-sm md:text-lg">
 							{portfolioItem.name}
 						</div>
-						<div className="text-xs md:text-sm">{portfolioItem.desc}</div>
+						<div className="text-xs md:text-sm text-gray-600">{portfolioItem.desc}</div>
 						<div className="p-2">
 							<Stack direction="row" spacing={2}>
 								<Button variant="contained" endIcon={<SendIcon />}>

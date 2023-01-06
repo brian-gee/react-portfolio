@@ -14,9 +14,9 @@ export default function Home() {
         <section className="flex justify-center">
           <div className="flex justify-between max-w-7xl px-12">
             <div className="text-left p-10">
-              <h2 className="text-5xl py-2">Brian Geertsma</h2>
-              <h3 className="text-2xl py-2">Fullstack Developer</h3>
-              <p className="text-sm py-5 leading-8 max-w-xl">
+              <h2 className="text-2xl md:text-5xl py-2">Brian Geertsma</h2>
+              <h3 className="text-lg md:text-2xl py-2">Fullstack Developer</h3>
+              <p className="text-xs md:text-sm py-5 leading-8 max-w-xl">
 							As a South Florida-based developer, I am dedicated to creating projects that streamline tedious tasks and bring more purpose and fulfillment to our daily lives. With a passion for innovation and a drive to make a positive impact, I am committed to using my skills and expertise to build solutions.
               </p>
             </div>

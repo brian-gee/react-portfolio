@@ -1,12 +1,20 @@
-import "../styles/globals.css";
-import Layout from "../components/layout";
+import '../styles/globals.css';
+import Layout from '../components/layout';
+import { Roboto_Slab } from '@next/font/google';
+
+const roboto = Roboto_Slab({
+	subsets: ['latin'],
+	weight: '400',
+});
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
-  );
+	return (
+		<main className={roboto.className}>
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
+		</main>
+	);
 }
 
 export default MyApp;

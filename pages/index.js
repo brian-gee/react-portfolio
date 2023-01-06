@@ -8,6 +8,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Brian Gee</title>
+
       </Head>
 
       <main className="text-white px-10">

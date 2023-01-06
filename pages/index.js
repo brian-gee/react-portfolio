@@ -11,7 +11,7 @@ export default function Home() {
 				<title>Brian Gee</title>
 			</Head>
 
-			<main className="text-white px-10">
+			<main>
 				<section className="flex justify-center">
 					<div className="flex justify-between max-w-7xl px-12">
 						<div className="text-left p-10">

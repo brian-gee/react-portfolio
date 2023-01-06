@@ -7,13 +7,13 @@ export default function Portfolio() {
   const [portfolioItems] = useState([
     {
       name: "Customer Manager",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, dolores dolorem! Soluta, nemo. Velit sapiente itaque, sit tempora fuga hic ipsum laboriosam. Eos, tempora fugiat doloremque ea sunt magni necessitatibus?",
+      desc: "The customer manager web app is a powerful tool for businesses to manage their customer information. It is built with React, TypeScript, and Tailwind CSS, and uses Firebase for its backend.",
       image: bwp,
       link: "https://bluewaterpools.xyz",
     },
     {
       name: "Weather Dashboard",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, dolores dolorem! Soluta, nemo. Velit sapiente itaque, sit tempora fuga hic ipsum laboriosam. Eos, tempora fugiat doloremque ea sunt magni necessitatibus?",
+      desc: "Our weather dashboard is a dynamic and intuitive tool for checking the current and forecasted weather conditions. It is built using JavaScript, HTML, and CSS on the frontend, and utilizes Node.js on the backend. The app also integrates with the OpenWeather API to retrieve live weather data for locations around the world.",
       image: wd,
       github: "https://github.com/brian-gee/weather-dashboard",
       link: "https://brian-gee.github.io/weather-dashboard/",

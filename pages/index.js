@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import grim from '../public/grim_cropped.gif';
 import Portfolio from '../components/portfolio';
+import Contact from '../components/contact';
 
 export default function Home() {
 	return (
@@ -35,13 +36,15 @@ export default function Home() {
 				</section>
 
 				<section id="portfolio">
-					<div className="mt-20">
+					<div className="my-20">
 						<Portfolio></Portfolio>
 					</div>
 				</section>
 
 				<section id="contact">
-					<div></div>
+					<div className=''>
+            <Contact></Contact>
+          </div>
 				</section>
 			</main>
 		</div>

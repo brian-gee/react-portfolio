@@ -36,13 +36,13 @@ export default function Home() {
 				</section>
 
 				<section id="portfolio">
-					<div className="my-20">
+					<div className="mt-20">
 						<Portfolio></Portfolio>
 					</div>
 				</section>
 
 				<section id="contact">
-					<div className=''>
+					<div>
             <Contact></Contact>
           </div>
 				</section>

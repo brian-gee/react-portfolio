@@ -7,7 +7,7 @@ export default function Portfolio() {
 				<section>
 					<div class="relative flex items-top justify-center min-h-screen bg-white sm:items-center sm:pt-0">
 						<div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-							<div class="mt-8 overflow-hidden">
+							<div class="overflow-hidden">
 								<div class="grid grid-cols-1 md:grid-cols-2">
 									<div class="p-6 mr-2  sm:rounded-lg">
 										<h1 class="text-4xl sm:text-5xl text-gray-800 font-extrabold tracking-tight">

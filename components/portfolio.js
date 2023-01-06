@@ -7,11 +7,13 @@ export default function Portfolio() {
   const [portfolioItems] = useState([
     {
       'name': 'Customer Manager',
+      'desc': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, dolores dolorem! Soluta, nemo. Velit sapiente itaque, sit tempora fuga hic ipsum laboriosam. Eos, tempora fugiat doloremque ea sunt magni necessitatibus?',
       'image': skCleaning,
       'link': 'https://bluewaterpools.xyz'
     },
     {
       'name': 'Weather Dashboard',
+      'desc': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, dolores dolorem! Soluta, nemo. Velit sapiente itaque, sit tempora fuga hic ipsum laboriosam. Eos, tempora fugiat doloremque ea sunt magni necessitatibus?',
       'image': weatherDashboard,
       'github': 'https://github.com/brian-gee/weather-dashboard',
       'link': 'https://brian-gee.github.io/weather-dashboard/'

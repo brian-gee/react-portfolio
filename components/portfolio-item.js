@@ -5,16 +5,17 @@ export default function PortfolioItem(params) {
 	const { portfolioItems } = params;
 
 	return (
-		<div className="flex flex-col justify-center lg:flex-row lg:flex-wrap">
+		<div className="max-w-4xl">
 			{portfolioItems.map((portfolioItem, i) => (
 				<Link key={i} href={portfolioItem.link}>
-				<div className="m-3 rounded border-solid border-2 border-gray-100">
-					<div className="px-6 py-4 flex justify-center">
-						<div className="font-bold text-xl">{portfolioItem.name}</div>
+				<div className="grid grid-cols-2 shadow-lg m-5 border-2 border-light-blue">
+					<div className="px-6 py-4">
+						<div className="font-bold text-sm md:text-lg">{portfolioItem.name}</div>
+						<div className="text-xs md:text-sm">{portfolioItem.desc}</div>
 					</div>
-					<div className="max-w-sm h-72 rounded overflow-hidden shadow-lg p-5">
+					<div className="px-4 border-2 border-light-blue">
 						<Image
-							className="object-cover h-96 rounded"
+							className="object-contain h-96 border-2 border-light-blue max-h-72"
 							src={portfolioItem.image}
 							alt={portfolioItem.name}
 						/>

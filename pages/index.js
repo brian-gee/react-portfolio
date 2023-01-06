@@ -17,9 +17,7 @@ export default function Home() {
               <h2 className="text-5xl py-2">Brian Geertsma</h2>
               <h3 className="text-2xl py-2">Fullstack Developer</h3>
               <p className="text-sm py-5 leading-8 max-w-xl">
-                I&apos;m a South Florida based software developer working on
-                projects to help automate the boring stuff and bring meaning
-                back into our lives.
+							As a South Florida-based developer, I am dedicated to creating projects that streamline tedious tasks and bring more purpose and fulfillment to our daily lives. With a passion for innovation and a drive to make a positive impact, I am committed to using my skills and expertise to build solutions.
               </p>
             </div>
             <div className="grid justify-end">

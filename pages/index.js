@@ -15,7 +15,7 @@ export default function Home() {
 				<section className="flex justify-center">
 					<div className="flex justify-between max-w-7xl px-12">
 						<div className="text-left p-10">
-							<h2 className="text-2xl md:text-5xl py-2">Brian Geertsma</h2>
+							<h2 className="text-4xl sm:text-5xl text-gray-800 font-extrabold tracking-tight py-2">Brian Geertsma</h2>
 							<h3 className="text-lg md:text-2xl py-2">Fullstack Developer</h3>
 							<p className="text-xs md:text-sm py-5 leading-8 max-w-xl">
 								As a South Florida-based developer, I am dedicated to creating
@@ -36,7 +36,7 @@ export default function Home() {
 				</section>
 
 				<section id="portfolio">
-					<div className="mt-20">
+					<div className="mt-56">
 						<Portfolio></Portfolio>
 					</div>
 				</section>

@@ -12,7 +12,7 @@ export default function Home() {
 			</Head>
 
 			<main>
-				<section className="flex justify-center">
+				<section className="flex justify-center pt-32">
 					<div className="flex justify-between max-w-7xl px-12">
 						<div className="text-left p-10">
 							<h2 className="text-4xl sm:text-5xl text-gray-800 font-extrabold tracking-tight py-2">Brian Geertsma</h2>

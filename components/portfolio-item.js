@@ -29,7 +29,7 @@ export default function PortfolioItem(params) {
 					</div>
 					<div className="px-4">
 						<Image
-							className="object-contain h-96"
+							className="object-contain h-60 m-3"
 							src={portfolioItem.image}
 							alt={portfolioItem.name}
 						/>

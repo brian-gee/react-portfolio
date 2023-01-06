@@ -1,20 +1,20 @@
 import { useState } from 'react';
 import PortfolioItem from '../components/portfolio-item';
-import skCleaning from '../public/SK-Cleaning.png'
-import weatherDashboard from '../public/Weather-Dashboard.png'
+import bwp from '../public/bwp.png'
+import wd from '../public/wd.png'
 
 export default function Portfolio() {
   const [portfolioItems] = useState([
     {
       'name': 'Customer Manager',
       'desc': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, dolores dolorem! Soluta, nemo. Velit sapiente itaque, sit tempora fuga hic ipsum laboriosam. Eos, tempora fugiat doloremque ea sunt magni necessitatibus?',
-      'image': skCleaning,
+      'image': bwp,
       'link': 'https://bluewaterpools.xyz'
     },
     {
       'name': 'Weather Dashboard',
       'desc': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, dolores dolorem! Soluta, nemo. Velit sapiente itaque, sit tempora fuga hic ipsum laboriosam. Eos, tempora fugiat doloremque ea sunt magni necessitatibus?',
-      'image': weatherDashboard,
+      'image': wd,
       'github': 'https://github.com/brian-gee/weather-dashboard',
       'link': 'https://brian-gee.github.io/weather-dashboard/'
     },

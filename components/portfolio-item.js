@@ -13,9 +13,9 @@ export default function PortfolioItem(params) {
 						<div className="font-bold text-sm md:text-lg">{portfolioItem.name}</div>
 						<div className="text-xs md:text-sm">{portfolioItem.desc}</div>
 					</div>
-					<div className="px-4">
+					<div className="">
 						<Image
-							className="object-contain h-60 max-h-60 my-2"
+							className="object-contain h-60 max-h-56 py-3"
 							src={portfolioItem.image}
 							alt={portfolioItem.name}
 						/>

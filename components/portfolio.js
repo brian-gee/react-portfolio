@@ -22,7 +22,6 @@ export default function Portfolio() {
 
   return (
     <div>
-      {/* Portfolio */}
       <main className="relative flex items-top justify-center min-h-screen sm:items-center sm:pt-0">
         <section>
           <div className="text-center">

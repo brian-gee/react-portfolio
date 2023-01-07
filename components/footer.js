@@ -9,7 +9,7 @@ export default function Footer() {
         </a>
         <a
           href="https://www.linkedin.com/in/brian-geertsma/"
-          className="hover:text-6xl"
+          className="hover:text-6xl text-blue-500"
         >
           <BsLinkedin />
         </a>

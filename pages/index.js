@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import grim from '../public/grim_cropped.gif';
+import bg from '../public/bg.jpeg';
 import Portfolio from '../components/portfolio';
 import Contact from '../components/contact';
 
@@ -20,15 +20,13 @@ export default function Home() {
 							<p className="text-xs md:text-sm py-5 leading-8 max-w-xl">
 								As a South Florida-based developer, I am dedicated to creating
 								projects that streamline tasks and bring more purpose
-								and fulfillment to our daily lives. With a passion for
-								innovation and a drive to make a positive impact, I am committed
-								to using my skills and expertise to build solutions.
+								and fulfillment to our daily lives.
 							</p>
 						</div>
 						<div className="grid justify-end">
 							<Image
-								src={grim}
-								alt="grim-gif"
+								src={bg}
+								alt="bg"
 								className="rounded-full border-2 border-blue-500"
 							/>
 						</div>

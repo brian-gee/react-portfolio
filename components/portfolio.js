@@ -1,5 +1,5 @@
 import { useState } from "react";
-import PortfolioItem from "../components/portfolio-item";
+import PortfolioItem from "./portfolioItem";
 import bwp from "../public/bwp.png";
 import wd from "../public/wd.png";
 

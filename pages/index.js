@@ -29,7 +29,7 @@ export default function Home() {
 							<Image
 								src={grim}
 								alt="grim-gif"
-								className="rounded-full border-2 border-gray-500"
+								className="rounded-full border-2 border-blue-500"
 							/>
 						</div>
 					</div>

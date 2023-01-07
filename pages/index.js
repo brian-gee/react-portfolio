@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import bg from '../public/bg.jpeg';
+import bg from '../public/bg.jpg';
 import Portfolio from '../components/portfolio';
 import Contact from '../components/contact';
 
@@ -27,7 +27,14 @@ export default function Home() {
 							<Image
 								src={bg}
 								alt="bg"
-								className="rounded-full border-2 border-blue-500"
+								className="rounded-xl"
+								width={300}
+								height={300}
+								style={{
+									maxWidth: '95%',
+									height: 'auto',
+								}}
+
 							/>
 						</div>
 					</div>

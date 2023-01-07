@@ -23,7 +23,7 @@ export default function Portfolio() {
   return (
     <div>
       {/* Portfolio */}
-      <main className="relative flex items-top justify-center min-h-screen bg-white sm:items-center sm:pt-0">
+      <main className="relative flex items-top justify-center min-h-screen sm:items-center sm:pt-0">
         <section>
           <div className="text-center">
             <h3 className="text-4xl sm:text-5xl text-gray-800 font-extrabold tracking-tight py-2">Portfolio</h3>

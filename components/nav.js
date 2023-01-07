@@ -26,7 +26,7 @@ export default function Nav() {
       </Head>
       <nav className="py-5 mb-12 flex justify-between">
         <Link href="/">
-          <h1 className="text-xl hover:text-light-blue focus:shadow-outline focus:outline-none">
+          <h1 className="text-xl">
             Brian Gee
           </h1>
         </Link>
@@ -34,7 +34,7 @@ export default function Nav() {
           {navItems.map((navItem, i) => (
             <li key={i}>
               <Link href={navItem.url}>
-                <p className="hover:text-light-blue px-4 py-2 rounded-md ml-5">
+                <p className="hover:text-blue-500 px-4 py-2 rounded-md ml-5">
                   {navItem.name}
                 </p>
               </Link>

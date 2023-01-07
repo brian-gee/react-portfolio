@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Button from '@mui/material/Button';
-import DeleteIcon from '@mui/icons-material/Delete';
-import SendIcon from '@mui/icons-material/Send';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import AirplayIcon from '@mui/icons-material/Airplay';
 import Stack from '@mui/material/Stack';
 
 export default function PortfolioItem(params) {
@@ -15,13 +15,24 @@ export default function PortfolioItem(params) {
 						<div className="font-bold text-sm md:text-lg">
 							{portfolioItem.name}
 						</div>
-						<div className="text-xs md:text-sm text-gray-600">{portfolioItem.desc}</div>
-						<div className="p-2">
+						<div className="text-xs md:text-sm text-gray-600">
+							{portfolioItem.desc}
+						</div>
+						<div className="p-2 mt-2">
 							<Stack direction="row" spacing={2}>
-								<Button variant="contained" endIcon={<SendIcon />}>
+								<Button
+									variant="contained"
+									style={{ backgroundColor: '#3b82f6', color: '#FFFFFF' }}
+									endIcon={<AirplayIcon/>}
+								>
 									Live Demo
 								</Button>
-								<Button variant="outlined" startIcon={<DeleteIcon />}>
+								<Button
+									variant="outlined"
+									size="small"
+									style={{ color: '#3b82f6' }}
+									startIcon={<GitHubIcon />}
+								>
 									Source Code
 								</Button>
 							</Stack>

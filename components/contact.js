@@ -1,3 +1,7 @@
+import Button from '@mui/material/Button';
+import SendIcon from '@mui/icons-material/Send';
+import Stack from '@mui/material/Stack';
+
 export default function Portfolio() {
 	return (
 		<div>
@@ -56,12 +60,16 @@ export default function Portfolio() {
 											/>
 										</div>
 
-										<button
-											type="submit"
-											className="md:w-32 bg-indigo-600 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-indigo-500 transition ease-in-out duration-300"
-										>
-											Submit
-										</button>
+										<Stack direction="row" spacing={2}>
+											<Button
+												variant="contained"
+												style={{ backgroundColor: '#3b82f6', color: '#FFFFFF' }}
+												className="md:w-32 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3"
+												endIcon={<SendIcon />}
+											>
+												Submit
+											</Button>
+										</Stack>
 									</form>
 								</div>
 							</div>

@@ -58,15 +58,15 @@ export default function Portfolio() {
 												className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border-2 border-gray-400 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
 											/>
 										</div>
-
-										<Button
-											variant="contained"
-											style={{ backgroundColor: '#3b82f6', color: '#FFFFFF' }}
-											className="md:w-32 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3"
-											endIcon={<SendIcon />}
-										>
-											Submit
-										</Button>
+										<div className='mt-2 flex justify-start'>
+											<Button
+												variant="contained"
+												style={{ backgroundColor: '#3b82f6', color: '#FFFFFF' }}
+												endIcon={<SendIcon />}
+											>
+												Submit
+											</Button>
+										</div>
 									</form>
 								</div>
 							</div>

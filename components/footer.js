@@ -1,5 +1,3 @@
-import { BsLinkedin, BsGithub } from "react-icons/bs";
-
 export default function Footer() {
   let date =  new Date().getFullYear();
   return (

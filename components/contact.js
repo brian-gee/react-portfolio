@@ -14,7 +14,7 @@ export default function Portfolio() {
 										<h1 className="text-4xl sm:text-5xl text-gray-800 font-extrabold tracking-tight">
 											Get in touch
 										</h1>
-										<p className="text-normal text-lg sm:text-2xl font-medium text-gray-600 mt-2">
+										<p className="text-lg md:text-2xl mt-2">
 											Fill in the form to start a conversation
 										</p>
 									</div>

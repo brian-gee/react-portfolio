@@ -1,6 +1,7 @@
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 export default function Footer() {
+  let date =  new Date().getFullYear();
   return (
     <footer className="pt-20 mt-auto">
       <div className="text-5xl flex justify-center py-3 space-x-10">
@@ -15,7 +16,7 @@ export default function Footer() {
         </a>
       </div>
       <span className="flex justify-center py-5 text-sm sm:text-center">
-        ©2022&nbsp;
+        ©{date}&nbsp;
         <a href="https://briang.xyz/" className="hover:underline">
           Brian Geertsma
         </a>

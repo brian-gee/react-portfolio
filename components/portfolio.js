@@ -9,6 +9,7 @@ export default function Portfolio() {
       name: "Customer Manager",
       desc: "The customer manager web app is a powerful tool for businesses to manage their customer information. It is built with React, TypeScript, and Tailwind CSS, and uses Firebase for its backend.",
       image: bwp,
+      github: "https://github.com/brian-gee/blue-water-pools",
       link: "https://bluewaterpools.xyz",
     },
     {

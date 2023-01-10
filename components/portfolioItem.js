@@ -21,6 +21,7 @@ export default function PortfolioItem(params) {
 						<div className="p-2 mt-2">
 							<Stack direction="row" spacing={2}>
 								<Button
+									href={portfolioItem.link}
 									variant="contained"
 									style={{ backgroundColor: '#3b82f6', color: '#FFFFFF' }}
 									endIcon={<AirplayIcon />}
@@ -28,6 +29,7 @@ export default function PortfolioItem(params) {
 									Live Demo
 								</Button>
 								<Button
+									href={portfolioItem.github}
 									variant="outlined"
 									size="small"
 									style={{ color: '#3b82f6' }}

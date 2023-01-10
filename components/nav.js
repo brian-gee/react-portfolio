@@ -49,7 +49,7 @@ export default function Nav() {
 						}`}
 					>
 						{navItems.map((link) => (
-							<li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
+							<li key={link.name} className="md:ml-8 text-lg md:text-2xl md:my-0 my-7">
 								<Link
 									href={link.url}
 									className="text-gray-800 hover:text-gray-400 duration-500"

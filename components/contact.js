@@ -29,7 +29,7 @@ export default function Portfolio() {
 												name="name"
 												id="name"
 												placeholder="Full Name"
-												className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border-2 border-gray-400 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+												className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border-2 border-black text-gray-800 focus:border-indigo-500 focus:outline-none"
 											/>
 										</div>
 
@@ -42,7 +42,7 @@ export default function Portfolio() {
 												name="email"
 												id="email"
 												placeholder="Email"
-												className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border-2 border-gray-400 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+												className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border-2 border-black text-gray-800 focus:border-indigo-500 focus:outline-none"
 											/>
 										</div>
 
@@ -55,7 +55,7 @@ export default function Portfolio() {
 												name="tel"
 												id="tel"
 												placeholder="Telephone Number"
-												className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border-2 border-gray-400 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+												className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border-2 border-black text-gray-800 focus:border-indigo-500 focus:outline-none"
 											/>
 										</div>
 										<div className='mt-2 flex justify-start'>

@@ -10,9 +10,9 @@ export default function PortfolioItem(params) {
   return (
     <div className="max-w-4xl md:grid md:grid-cols-2">
       {portfolioItems.map((portfolioItem, i) => (
-        <div key={i} className="shadow-lg m-5 ">
+        <div key={i} className="shadow-lg m-5">
           <div className="px-6 py-4 text-center">
-            <div className="text-lg md:text-2xl">{portfolioItem.name}</div>
+            <div className="text-lg md:text-3xl">{portfolioItem.name}</div>
             <div className="md:text-lg p-2">{portfolioItem.desc}</div>
             <div>
               {' '}
@@ -22,7 +22,7 @@ export default function PortfolioItem(params) {
                 alt={portfolioItem.name}
               />
             </div>
-            <div className="p-2 mt-2">
+            <div className="p-2 mt-2 flex justify-center">
               <Stack direction="row" spacing={2}>
                 <Button
                   href={portfolioItem.link}

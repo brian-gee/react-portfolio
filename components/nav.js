@@ -7,7 +7,7 @@ export default function Nav() {
   const [navItems] = useState([
     {
       name: 'Resume',
-      url: '/#portfolio',
+      url: '',
     },
   ]);
   return (

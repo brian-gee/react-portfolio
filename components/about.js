@@ -21,7 +21,12 @@ export default function About() {
         </a>
       </div>
       <div className="mx-auto bg-gradient-to-b rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-        <Image src={bg} layout="fill" objectFit="cover" />
+        <Image
+          src={bg}
+          alt="A picture of Brian G"
+          layout="fill"
+          objectFit="cover"
+        />
       </div>
     </div>
   );

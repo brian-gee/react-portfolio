@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import bgLogo from '../public/bg-logo.png';
 import { useState } from 'react';
-import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { Button } from '@mui/material';
 
 export default function Nav() {
@@ -20,7 +19,6 @@ export default function Nav() {
           </div>
           <div>
             <ul className="flex items-center">
-              <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
               {navItems.map((link) => (
                 <li key={link.name}>
                   <Button

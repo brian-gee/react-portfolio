@@ -8,16 +8,12 @@ export default function PortfolioItem(params) {
   const { portfolioItems } = params;
 
   return (
-    <div className="max-w-4xl">
+    <div className="max-w-4xl md:grid md:grid-cols-2">
       {portfolioItems.map((portfolioItem, i) => (
-        <div key={i} className="shadow-lg m-5">
-          <div className="px-6 py-4">
-            <div className="text-center text-lg md:text-2xl">
-              {portfolioItem.name}
-            </div>
-            <div className="text-xs md:text-sm text-gray-600">
-              {portfolioItem.desc}
-            </div>
+        <div key={i} className="shadow-lg m-5 ">
+          <div className="px-6 py-4 text-center">
+            <div className="text-lg md:text-2xl">{portfolioItem.name}</div>
+            <div className="md:text-lg p-2">{portfolioItem.desc}</div>
             <div>
               {' '}
               <Image

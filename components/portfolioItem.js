@@ -1,8 +1,5 @@
 import Image from 'next/image';
-import Button from '@mui/material/Button';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import AirplayIcon from '@mui/icons-material/Airplay';
-import Stack from '@mui/material/Stack';
+import Link from 'next/link';
 
 export default function PortfolioItem(params) {
   const { portfolioItems } = params;
@@ -21,22 +18,13 @@ export default function PortfolioItem(params) {
                 alt={portfolioItem.name}
               />
             </div>
-            <div className="p-2 mt-2 flex justify-center">
-              <Stack direction="row" spacing={2}>
-                <Button
-                  href={portfolioItem.link}
-                  variant="contained"
-                  style={{ backgroundColor: '#3b82f6', color: '#FFFFFF' }}>
-                  Live Demo
-                </Button>
-                <Button
-                  href={portfolioItem.github}
-                  variant="outlined"
-                  style={{ color: '#3b82f6' }}
-                  startIcon={<GitHubIcon />}>
-                  Source Code
-                </Button>
-              </Stack>
+            <div className="p-2 mt-2 flex justify-center space-x-2">
+              <Link href={portfolioItem.link}>
+                <button className="btn btn-info btn-sm">Live Demo</button>
+              </Link>
+              <Link href={portfolioItem.github}>
+                <button className="btn btn-info btn-sm">Github</button>
+              </Link>
             </div>
           </div>
           <div className="px-4"></div>

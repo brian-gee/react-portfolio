@@ -9,7 +9,7 @@ const roboto = Roboto_Slab({
 
 function MyApp({ Component, pageProps }) {
   return (
-    <main className={roboto.className} data-theme="cupcake">
+    <main className={roboto.className} data-theme="corporate">
       <Layout>
         <Component {...pageProps} />
       </Layout>

@@ -22,7 +22,7 @@ export default function Nav() {
               {navItems.map((link) => (
                 <li key={link.name}>
                   <Link href={link.url}>
-                    <button className="btn btn-block btn-md btn-primary ml-4">
+                    <button className="btn btn-info btn-block btn-md ml-4">
                       Resume
                     </button>
                   </Link>

@@ -56,13 +56,10 @@ export default function Portfolio() {
                         className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border-2 border-black text-gray-800 focus:border-blue-500 focus:outline-none"
                       />
                     </div>
-                    <div className="mt-2 flex justify-start">
-                      <Button
-                        variant="contained"
-                        style={{ backgroundColor: '#3b82f6', color: '#FFFFFF' }}
-                        endIcon={<SendIcon />}>
+                    <div className="mt-2 flex justify-end pt-2">
+                      <button className="btn btn-info btn-block btn-square">
                         Submit
-                      </Button>
+                      </button>
                     </div>
                   </form>
                 </div>

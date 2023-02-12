@@ -1,23 +1,29 @@
 import { useState } from 'react';
 import PortfolioItem from './portfolioItem';
-import bwp from '../public/bwp.png';
-import wd from '../public/wd.png';
+import BlueWaterPools from '../public/bwp.png';
+import WeatherDashboard from '../public/wd.png';
+import SKClean from '../public/sk-app.png';
 
 export default function Portfolio() {
   const [portfolioItems] = useState([
     {
       name: 'Blue Water Pools',
       desc: 'Customer management page developed using React, TypeScript, and Firebase.',
-      image: bwp,
+      image: BlueWaterPools,
       github: 'https://github.com/brian-gee/blue-water-pools',
       link: 'https://bluewaterpools.xyz',
     },
     {
       name: 'Weather Dashboard',
       desc: 'Get realtime weather data using OpenWeatherAPI',
-      image: wd,
+      image: WeatherDashboard,
       github: 'https://github.com/brian-gee/weather-dashboard',
       link: 'https://brian-gee.github.io/weather-dashboard/',
+    },
+    {
+      name: 'SK Clean',
+      desc: 'Coming soon...',
+      image: SKClean,
     },
   ]);
 

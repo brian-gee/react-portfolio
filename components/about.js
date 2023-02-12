@@ -9,7 +9,7 @@ export default function About() {
       </h2>
       <h3 className="text-2xl py-2 md:text-3xl">Fullstack Developer</h3>
       <p className="text-md py-5 leading-8 text-gray-800 max-w-xl mx-auto md:text-xl">
-        Miami based software developer dedicated to creating projects that
+        Miami based software engineer dedicated to creating projects that
         streamline tasks and enrich our daily lives.
       </p>
       <div className="text-5xl flex justify-center gap-16 py-3 text-gray-800">

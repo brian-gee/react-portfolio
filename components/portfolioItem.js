@@ -12,12 +12,11 @@ export default function PortfolioItem(params) {
       {portfolioItems.map((portfolioItem, i) => (
         <div key={i} className="shadow-lg m-5">
           <div className="px-6 py-4 text-center">
-            <div className="text-lg md:text-3xl">{portfolioItem.name}</div>
+            <div className="text-2xl md:text-3xl">{portfolioItem.name}</div>
             <div className="md:text-lg p-2">{portfolioItem.desc}</div>
             <div>
-              {' '}
               <Image
-                className="object-contain m-3"
+                className="object-contain m-3 max-h-96"
                 src={portfolioItem.image}
                 alt={portfolioItem.name}
               />

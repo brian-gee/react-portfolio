@@ -7,6 +7,13 @@ import SKClean from '../public/sk-app.png';
 export default function Portfolio() {
   const [portfolioItems] = useState([
     {
+      name: 'SK Clean',
+      desc: 'Coming soon...',
+      image: SKClean,
+      github: 'https://github.com/brian-gee/sk-clean',
+      link: 'https://skclean.net',
+    },
+    {
       name: 'Blue Water Pools',
       desc: 'Customer management page developed using React, TypeScript, and Firebase.',
       image: BlueWaterPools,
@@ -19,11 +26,6 @@ export default function Portfolio() {
       image: WeatherDashboard,
       github: 'https://github.com/brian-gee/weather-dashboard',
       link: 'https://brian-gee.github.io/weather-dashboard/',
-    },
-    {
-      name: 'SK Clean',
-      desc: 'Coming soon...',
-      image: SKClean,
     },
   ]);
 

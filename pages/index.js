@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Portfolio from '../components/portfolio';
+import DaisyCard from '../components/daisyCard';
 import Contact from '../components/contact';
 import About from '../components/about';
 

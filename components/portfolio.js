@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import PortfolioItem from './portfolioItem';
+import DaisyCard from './daisyCard';
 import BlueWaterPools from '../public/bwp.png';
 import WeatherDashboard from '../public/wd.png';
 import SKClean from '../public/sk-app.png';
@@ -39,7 +40,7 @@ export default function Portfolio() {
             </h3>
           </div>
           <div className="flex justify-center">
-            <PortfolioItem portfolioItems={portfolioItems} />
+            <DaisyCard portfolioItems={portfolioItems} />
           </div>
         </section>
       </main>

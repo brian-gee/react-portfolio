@@ -20,10 +20,10 @@ export default function PortfolioItem(params) {
             </div>
             <div className="p-2 mt-2 flex justify-center space-x-2">
               <Link href={portfolioItem.link}>
-                <button className="btn btn-info btn-sm">Live Demo</button>
+                <button className="btn btn-sm rounded-3xl">Live Demo</button>
               </Link>
               <Link href={portfolioItem.github}>
-                <button className="btn btn-info btn-sm">Github</button>
+                <button className="btn btn-sm rounded-3xl">Github</button>
               </Link>
             </div>
           </div>

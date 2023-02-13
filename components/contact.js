@@ -56,8 +56,8 @@ export default function Portfolio() {
                         className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border-2 border-black text-gray-800 focus:border-blue-500 focus:outline-none"
                       />
                     </div>
-                    <div className="mt-2 flex justify-end pt-2">
-                      <button className="btn btn-info btn-block btn-square">
+                    <div className="mt-2 flex justify-center pt-2">
+                      <button className="btn btn-block rounded-3xl">
                         Submit
                       </button>
                     </div>
